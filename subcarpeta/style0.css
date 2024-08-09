@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url('../img/b664f35d843db3c1be8ca0298b52a5e9.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  width: 500px;
+  background-color: hsla(41, 50%, 70%, 0.582);
+  height: 80%;
+  padding: 20px;
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container .img {
+  width: 140px;
+  position: absolute;
+  top: -60px;
+  right: -90px;
+  z-index: -1;
+}
+
+header {
+  background-color: rgba(218, 160, 36, 0.822);
+  color: #fff;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 5px #2a2929;
+  margin-bottom: 20px;
+}
+
+.final {
+  color: #fff;
+  text-align: center;
+}
+
+.final .medalla img {
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+.final .nombre {
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 52px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.final .puntaje-final {
+  font-weight: 600;
+  font-size: 52px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #2e605e;
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease;
+  font-weight: 670;
+  font-size: 27px;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background-color: #2a2929;
+}
